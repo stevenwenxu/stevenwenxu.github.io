@@ -92,9 +92,13 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    /*border-top: 1px solid $grey-color-light;*/
+    /*padding: $spacing-unit 0;*/
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
+
 
 .footer-heading {
     font-size: 18px;
@@ -175,6 +179,10 @@
 
     > li {
         margin-bottom: $spacing-unit;
+    }
+
+    > li > h2 {
+        text-align: initial;
     }
 }
 
