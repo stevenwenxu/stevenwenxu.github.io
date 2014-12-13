@@ -10,8 +10,8 @@ We are all mesmerized when we put an *index.html* file in the */var/www* directo
 
 Here are some practices I learned from my first Co-op work term as a web developer.
 
-1. Put all sites in other directories, and make symlinks to */var/www*.
-2. Edit hostfile and configure Apache Server with VirtualDocumentRoot.
+- Put all sites in other directories, and make symlinks to */var/www*.
+-  Edit hostfile and configure Apache Server with VirtualDocumentRoot.
 
 In this way, the /var/www directory is kept easier to manage. If you have a newer version of the site, but you don't want to delete the old one or set up a new domain name, just point the symlink to that new place and you are good to go. It also saves time and disk space, because you don't have to copy files over.
 
