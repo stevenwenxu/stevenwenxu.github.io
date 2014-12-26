@@ -2,6 +2,7 @@
 layout: post
 title: Setting up an Apache Server
 categories: [tech]
+language: English
 tags: []
 published: True
 ---

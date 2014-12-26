@@ -4,21 +4,41 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+   <section id="filters">
+   <div class="button-group" data-filter-group="categories">
+         Categories:
+         <button data-filter="">Show all</button>
+         <button data-filter='.tech'>Tech</button>
+         <button data-filter='.co-op'>Coop</button>
+         <button data-filter='.life'>Life</button>
+      </div>
+      <div class="button-group" data-filter-group="language">
+         Languages:
+         <button data-filter=''>Show all</button>
+         <button data-filter='.English'>English</button>
+         <button data-filter='.Chinese'>Chinese</button>
+      </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<!--   {% for category in ["tech", "life"] %}
+<button data-filter="."+category>category</button>
+{% endfor %} -->
+</section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        {{ post.excerpt }}
-      </li>
-    {% endfor %}
-  </ul>
+<h1 class="page-heading">Posts</h1>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<ul class="post-list">
+   {% for post in site.posts %}
+   <li class="post-item {{ post.categories }} {{ post.language }}">
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      <h2>
+         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      {{ post.excerpt }}
+   </li>
+   {% endfor %}
+</ul>
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
