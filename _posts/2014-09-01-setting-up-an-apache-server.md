@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Setting up an Apache Server
-categories: [tech]
-language: English
+categories: [tech coop]
 tags: []
 published: True
 ---
