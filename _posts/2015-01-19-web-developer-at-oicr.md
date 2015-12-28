@@ -48,7 +48,7 @@ Steven's behavioural and developmental performance expectations for his term - <
 
 Here is a wordle that summarizes what I did.
 
-![wordle](/files/wordle.jpg)
+![wordle](/assets/wordle.jpg)
 
 As it can be seen, I did more testing than developing. That was because I didn't have that much time to, for example, learn (from scratch) BackboneJS good enough to keep up with the work in an effective way. However, I did learn a lot by reading massive amount of code. When I did testing, not only did I finish my tasks quickly, but also I looked at the SVN logs to see what was changed and how that bug was solved. When I don't understand what was happening, I usually asked the developers "What does that mean, why did you change it to that?". <strong>Eventually, I was able to try a fix on my local copy, and if it worked, left a comment on JIRA saying, "This problem is because ..., and doing ... can fix it</strong>". I found that reading other's code is really a nice way to learn technology.
 
