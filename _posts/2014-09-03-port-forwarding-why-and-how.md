@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Port forwarding&#58; why and how
-categories: [tech coop]
+categories: [tech]
 tags: []
 published: True
 ---

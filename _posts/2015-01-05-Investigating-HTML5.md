@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Investigating HTML5
-categories: [tech coop]
+categories: [tech]
 tags: []
 published: True
 ---

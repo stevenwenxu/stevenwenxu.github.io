@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setting up an Apache Server
-categories: [tech coop]
+categories: [tech]
 tags: []
 published: True
 ---

@@ -8,6 +8,7 @@ published: True
 ---
 
 This really brings great sense of achievement.
+
 <iframe src='https://connect.garmin.com/activity/embed/994401574' width='465' height='500' frameborder='0'></iframe>
 
 ## What's new
