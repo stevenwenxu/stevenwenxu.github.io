@@ -6,6 +6,10 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "http://blog.sxu.ca"
 github_username:  steven-xu94
+gems:
+    - jekyll-redirect-from
+whitelist:
+    - jekyll-redirect-from
 
 # Build settings
 markdown: kramdown
