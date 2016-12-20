@@ -45,7 +45,7 @@ File: /etc/apache2/sites-enabled/000-default
 
 Normally you would add a `Directory` block in your apache conf file for each site:
 
-{% highlight conf %}
+{% highlight apache %}
 <VirtualHost *:80>
    ...
 
@@ -62,7 +62,7 @@ Normally you would add a `Directory` block in your apache conf file for each sit
 
 But then you will need to edit it and restart Apache every time you add a new site, which is very tedious. That's where `VirtualDocumentRoot` comes. Here is my apache configuration file:
 
-{% highlight conf %}
+{% highlight apache %}
 <VirtualHost *:80>
    ServerAdmin steven.xu13@gmail.com
 
