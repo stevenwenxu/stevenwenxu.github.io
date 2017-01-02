@@ -56,7 +56,7 @@ ssh user@10.0.28.173 -L 8080:192.168.56.101:80 -L 8081:192.168.56.101:443
 {% endhighlight %}
 
 \3. Done!
-   Visit http://localhost:8080 on your local mac. (or visit an awesome local domain if you followed my [previous post](/blog{% post_url 2014-09-01-setting-up-an-apache-server %}))
+   Visit http://localhost:8080 on your local mac. (or visit an awesome local domain if you followed my [previous post]({% post_url 2014-09-01-setting-up-an-apache-server %}))
 
 ### Understand the command
 
