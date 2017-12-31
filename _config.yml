@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "http://blog.sxu.ca"
 github_username:  stevenwenxu
-gems:
+plugins:
     - jekyll-redirect-from
 whitelist:
     - jekyll-redirect-from
