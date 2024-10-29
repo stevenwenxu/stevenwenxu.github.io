@@ -1,16 +1,47 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
 title: Steven's Blog
 email: steven.xu13@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  This is my blog.
-baseurl: ""
-url: "http://blog.sxu.ca"
-github_username:  stevenwenxu
-plugins:
-    - jekyll-redirect-from
-whitelist:
-    - jekyll-redirect-from
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://stevenwenxu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: none
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
+show_excerpts: true
+
+remote_theme: jekyll/minima@6b9b78dad3e5c9f733c901e10287465735b36169 # committed on Oct 2, 2024
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-remote-theme
+
+google_analytics: G-C23HEKH7XD
+
+disqus:
+  shortname: sxublog
+
+minima:
+  skin: auto
+  social_links:
+    - { platform: github,  user_url: "https://github.com/stevenwenxu" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/stevenwx" }
+    - { platform: instagram, user_url: "https://www.instagram.com/__steven_xu__" }
+    - { platform: youtube, user_url: "https://www.youtube.com/@stevenxu576" }

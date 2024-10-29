@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Port forwarding&#58; why and how
+title: "Port forwarding: why and how"
 categories: [tech]
 tags: []
 published: True
